@@ -1,0 +1,238 @@
+
+Stats for series: gender
+-------------------------------------------
+Length:20050
+# of NaN or Nulls 97
+Describe output:
+count      19953
+unique         4
+top       female
+freq        6700
+Name: gender, dtype: object
+categorical:True
+Unique values:
+[male, female, brand, unknown, NaN]
+Categories (4, object): [male, female, brand, unknown]
+Value counts output:
+female     6700
+male       6194
+brand      5942
+unknown    1117
+NaN          97
+Name: gender, dtype: int64
+
+
+Stats for series: gender:confidence
+-------------------------------------------
+Length:20050
+# of NaN or Nulls 26
+Describe output:
+count    20024.000000
+mean         0.882756
+std          0.191403
+min          0.000000
+25%          0.677800
+50%          1.000000
+75%          1.000000
+max          1.000000
+Name: gender:confidence, dtype: float64
+categorical:False
+Value counts output in bins:
+(0.9, 1.0]       13932
+(0.6, 0.7]        5139
+(0.3, 0.4]         856
+(-0.002, 0.1]       71
+(0.7, 0.8]          16
+(0.8, 0.9]           7
+(0.5, 0.6]           3
+(0.4, 0.5]           0
+(0.2, 0.3]           0
+(0.1, 0.2]           0
+Name: gender:confidence, dtype: int64
+
+
+Stats for series: profile_yn:confidence
+-------------------------------------------
+Length:20050
+# of NaN or Nulls 0
+Describe output:
+count    20050.000000
+mean         0.993221
+std          0.047168
+min          0.627200
+25%          1.000000
+50%          1.000000
+75%          1.000000
+max          1.000000
+Name: profile_yn:confidence, dtype: float64
+categorical:False
+Value counts output in bins:
+(0.963, 1.0]      19643
+(0.664, 0.702]      216
+(0.626, 0.664]      190
+(0.925, 0.963]        1
+(0.888, 0.925]        0
+(0.851, 0.888]        0
+(0.814, 0.851]        0
+(0.776, 0.814]        0
+(0.739, 0.776]        0
+(0.702, 0.739]        0
+Name: profile_yn:confidence, dtype: int64
+
+
+Stats for series: description
+-------------------------------------------
+Length:20050
+# of NaN or Nulls 3744
+Describe output:
+count                                                 16306
+unique                                                15140
+top       You can be spiritually empowered, financially ...
+freq                                                     33
+Name: description, dtype: object
+categorical:True
+
+
+Stats for series: fav_number
+-------------------------------------------
+Length:20050
+# of NaN or Nulls 0
+Describe output:
+count     20050.000000
+mean       4382.201646
+std       12518.575919
+min           0.000000
+25%          11.000000
+50%         456.000000
+75%        3315.500000
+max      341621.000000
+Name: fav_number, dtype: float64
+categorical:False
+Value counts output in bins:
+(-341.62199999999996, 34162.1]    19530
+(34162.1, 68324.2]                  382
+(68324.2, 102486.3]                  92
+(102486.3, 136648.4]                 25
+(136648.4, 170810.5]                 10
+(239134.7, 273296.8]                  3
+(204972.6, 239134.7]                  3
+(170810.5, 204972.6]                  3
+(307458.9, 341621.0]                  1
+(273296.8, 307458.9]                  1
+Name: fav_number, dtype: int64
+
+
+Stats for series: link_color
+-------------------------------------------
+Length:20050
+# of NaN or Nulls 0
+Describe output:
+count      20050
+unique      3001
+top       0084B4
+freq        9890
+Name: link_color, dtype: object
+categorical:True
+           count       perc
+color_len                  
+6          18542  92.478803
+4            636   3.172070
+1            420   2.094763
+5            362   1.805486
+8             35   0.174564
+3             34   0.169576
+2             21   0.104738
+
+
+Stats for series: retweet_count
+-------------------------------------------
+Length:20050
+# of NaN or Nulls 0
+Describe output:
+count    20050.000000
+mean         0.079401
+std          2.649751
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max        330.000000
+Name: retweet_count, dtype: float64
+categorical:False
+Value counts output in bins:
+(-0.331, 33.0]    20046
+(33.0, 66.0]          2
+(297.0, 330.0]        1
+(132.0, 165.0]        1
+(264.0, 297.0]        0
+(231.0, 264.0]        0
+(198.0, 231.0]        0
+(165.0, 198.0]        0
+(99.0, 132.0]         0
+(66.0, 99.0]          0
+Name: retweet_count, dtype: int64
+
+
+Stats for series: sidebar_color
+-------------------------------------------
+Length:20050
+# of NaN or Nulls 0
+Describe output:
+count      20050
+unique       561
+top       C0DEED
+freq        9093
+Name: sidebar_color, dtype: object
+categorical:True
+           count       perc
+color_len                  
+6          15964  79.620948
+1           4037  20.134663
+5             29   0.144638
+8              7   0.034913
+4              6   0.029925
+3              6   0.029925
+2              1   0.004988
+
+
+Stats for series: text
+-------------------------------------------
+Length:20050
+# of NaN or Nulls 0
+Describe output:
+count                                                 20050
+unique                                                18412
+top       EVERYDAYILOVEYOU Forevermore\n\nand what makes...
+freq                                                    193
+Name: text, dtype: object
+categorical:True
+
+
+Stats for series: tweet_count
+-------------------------------------------
+Length:20050
+# of NaN or Nulls 0
+Describe output:
+count    2.005000e+04
+mean     3.892469e+04
+std      1.168371e+05
+min      1.000000e+00
+25%      2.398000e+03
+50%      1.144150e+04
+75%      4.002750e+04
+max      2.680199e+06
+Name: tweet_count, dtype: float64
+categorical:False
+Value counts output in bins:
+(-2679.199, 268020.8]     19722
+(268020.8, 536040.6]        193
+(536040.6, 804060.4]         61
+(2144159.4, 2412179.2]       24
+(1072080.2, 1340100.0]       23
+(804060.4, 1072080.2]        22
+(1608119.8, 1876139.6]        2
+(2412179.2, 2680199.0]        1
+(1876139.6, 2144159.4]        1
+(1340100.0, 1608119.8]        1
+Name: tweet_count, dtype: int64
+
